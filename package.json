@@ -1,0 +1,24 @@
+{
+  "name": "k8s-cicd-dashboard",
+  "version": "1.0.0",
+  "description": "Professional Dashboard for K8s CI/CD Pipeline Demo",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Success: No tests specified, proceeding to build...\" && exit 0"
+  },
+  "keywords": [
+    "kubernetes",
+    "cicd",
+    "express",
+    "dashboard"
+  ],
+  "author": "Al Nafi Lab Student",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
